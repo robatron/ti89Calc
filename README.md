@@ -20,7 +20,21 @@ So you want to program your TI-89 calculator in C on Linux, eh? Here's how I did
 
 #### Download and install TIGCC
 
-Download the latest version [here](http://tigcc.ticalc.org/download.html)(I'm using v0.95), unzip it, and run the installer. Be sure to install the "third party" tools when the installer asks.
+Download the latest version [here](http://tigcc.ticalc.org/download.html) (I'm using v0.95), unzip it, and run the installer. Be sure to install the "third party" tools when the installer asks.
+
+### TiLP
+
+[TiLP](http://lpg.ticalc.org/prj_tilp) is a program that allows you to transfer files to and from your calculator. You can use it to transfer your compiled programs to your calculator. Luckily installing it is as easy as:
+
+    sudo apt-get install tilp2
+
+and running it is as easy as:
+
+    sudo tilp
+
+When the program is running, right click on the left pane (the calculator side) and select "Change device". Chances are, TiLP will have detected your calculator automatically. Double click on it, and you should be in buisiness.
+
+To transfer a compiled program, just drag it from the right pane (the file browser) to the left pane (the calculator) in the "variables" folder.
 
 ## Resources
 
