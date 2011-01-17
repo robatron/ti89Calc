@@ -15,6 +15,7 @@ So you want to program your TI-89 calculator in C on Linux, eh? Here's how I did
 [TIGCC](http://tigcc.ticalc.org) allows you to write programs for your calculator in C and compile them into assembly. Unfortunatly, it was made for Windows, but it's nothing a little [Wine](http://www.winehq.org/) can't handle.
 
  * install Wine
+
  `sudo apt-get install wine
 
 ## Resources
