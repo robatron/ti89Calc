@@ -4,7 +4,18 @@ Assembly programs for my TI-89 Titanium calculator, written in C
 
 ## About
 
-I was successful in setting up a develpment environment for my TI-89 Titanium calculator using Linux (Ubuntu 10.04 LTS), and I figured I'd share my experiences.
+I was successful in setting up a develpment environment for programming my TI-89 Titanium calculator in C using Linux (Ubuntu 10.04 LTS). This is an attempt at sharing my experiences.
+
+## Setting up the environment
+
+So you want to program your TI-89 calculator in C on Linux, eh? Here's how I did it with Ubuntu 10.04 LTS:
+
+### TIGCC
+
+[TIGCC](http://tigcc.ticalc.org) allows you to write programs for your calculator in C and compile them into assembly. Unfortunatly, it was made for Windows, but it's nothing a little [Wine](http://www.winehq.org/) can't handle.
+
+ * install Wine
+ `sudo apt-get install wine
 
 ## Resources
 
